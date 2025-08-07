@@ -119,7 +119,9 @@ You can choose wirelessly and then just wait. If it starts complaining about the
 
 ***WAIT*** until the log says something like “seems like booting went well”. Then you can click *stop*.
 
-### 5. Let’s add it to the Home Assistant now. Go to Home Assistant -> settings -> Devices and services -> add integration and search ESPHome. It will ask for the IP address that has been assigned to the new ESP32 device and its own port. All of these should be found in its .YAML file. Then, name it how you like and there you go.
+### 5. Let’s add it to the Home Assistant.
+
+Go to Home Assistant ➡️ settings ➡️ Devices and services ➡️ add integration and search ESPHome. It will ask for the IP address that has been assigned to the new ESP32 device and its own port. All of these should be found in its .YAML file. Then, name it how you like and there you go.
 
 ✅You have succesfully setup ESPHome running in a container, connected an ESP32 microcontroller to ESPHome and integrated it to Home Assistant!
 
@@ -181,4 +183,14 @@ Before starting, inside the home-assistant folder, create a folder called **mosq
 
 There you go. Your mosquitto is now running in 0.0.0.0:1883
 
-### 6. 
+### 6. Connect Home Assistant to the broker (Mosquitto):
+
+Go to settings ➡️ Devices and services ➡️ add integration and search for MQTT. Choose the plain MQTT option.
+
+### 1. In the **Broker** section insert the IP address (probably 0.0.0.0).
+
+### 2. In the **Port** section enter the port you have configured.
+
+### 3. Enter the username and password you have created.
+
+# ✅
