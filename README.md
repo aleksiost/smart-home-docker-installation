@@ -127,7 +127,7 @@ Go to Home Assistant ➡️ settings ➡️ Devices and services ➡️ add inte
 
 # MQTT broker (Mosquitto - Docker)
 
-More detailed installation quide [here](https://github.com/sukesh-ak/setup-mosquitto-with-docker). I've found my method working.
+More detailed installation quide [here](https://github.com/sukesh-ak/setup-mosquitto-with-docker).
 
 ## Setup Mosquitto docker
 
