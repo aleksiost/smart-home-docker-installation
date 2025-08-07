@@ -187,10 +187,10 @@ There you go. Your mosquitto is now running in 0.0.0.0:1883
 
 Go to settings ➡️ Devices and services ➡️ add integration and search for MQTT. Choose the plain MQTT option.
 
-### 1. In the **Broker** section insert the IP address (probably 0.0.0.0).
+#### 1. In the **Broker** section insert the IP address (probably 0.0.0.0).
 
-### 2. In the **Port** section enter the port you have configured.
+#### 2. In the **Port** section enter the port you have configured.
 
-### 3. Enter the username and password you have created.
+#### 3. Enter the username and password you have created.
 
-# ✅
+### ✅ Home Assistant is now connected to your MQTT borker (Mosquitto)
