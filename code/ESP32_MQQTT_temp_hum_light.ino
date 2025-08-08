@@ -4,14 +4,14 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "AIoT-5G";
-const char* password = "AIoT-2024";
+const char* ssid = "wifi_ssid";
+const char* password = "wifi_password";
 
 // --- MQTT Broker ---
-const char* mqtt_server = "192.168.50.11";  // IP of Docker host running Mosquitto
-const int mqtt_port = 1883;
-const char* mqtt_user = "user1";  // optional
-const char* mqtt_pass = "aiot-2025";  // optional
+const char* mqtt_server = "localhost_of_your_MQTT";  // IP of Docker host running Mosquitto.
+const int mqtt_port = 1883; // Edit if yoou are using a different port.
+const char* mqtt_user = "your_username";
+const char* mqtt_pass = "your_password";
 const char* topic = "home/esp32/sensors";
 
 // --- DHT22 Setup ---
