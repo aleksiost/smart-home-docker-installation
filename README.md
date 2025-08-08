@@ -63,6 +63,8 @@ If you just want to restart without rebuild:
 
     sudo docker compose restart
 
+### 🔷 Learn how to create cool dashboards for Home Assistant [here](https://www.home-assistant.io/dashboards/)
+
 <br><br>
 <br><br>
 
