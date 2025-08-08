@@ -16,6 +16,7 @@ Docker installation of Home Assistant, ESPHome and MQTT broker (Mosquitto). + ES
       │           ├── mosquitto.conf   (The main configuration file for the MQTT broker.)
       │           └── pwfile   (The password file for authentication (generated with mosquitto_passwd).)
 
+<br><br>
 
 # Home Assistant - Docker
 ## Create these files for docker inside the home-assistant/ folder:
@@ -61,6 +62,9 @@ If you change the Dockerfile or docker-compose.yml later. This rebuilds and rest
 If you just want to restart without rebuild:
 
     sudo docker compose restart
+
+<br><br>
+<br><br>
 
 # ESPHome - Docker
 
@@ -124,6 +128,9 @@ You can choose wirelessly and then just wait. If it starts complaining about the
 Go to Home Assistant ➡️ settings ➡️ Devices and services ➡️ add integration and search ESPHome. It will ask for the IP address that has been assigned to the new ESP32 device and its own port. All of these should be found in its .YAML file. Then, name it how you like and there you go.
 
 ✅You have succesfully setup ESPHome running in a container, connected an ESP32 microcontroller to ESPHome and integrated it to Home Assistant!
+
+<br><br>
+<br><br>
 
 # MQTT broker (Mosquitto - Docker)
 
@@ -196,6 +203,9 @@ Go to settings ➡️ Devices and services ➡️ add integration and search for
 #### 3. Enter the username and password you have created.
 
 ### ✅ Home Assistant is now connected to your MQTT borker (Mosquitto)
+
+<br><br>
+<br><br>
 
 ## Setup ESP32 to connect to Home Assistant using MQTT
 
@@ -305,4 +315,8 @@ Go to settings ➡️ Devices and services. There you should see entities undern
 
 ### ✅ Now you have a working MQTT IoT device completely built on an ESP32!
 
+<br><br>
+
 🔴 Future improvement! The entities don't appear to belong to any device. Most likely this could be configured in the **mqtt.yaml** file. 
+
+<br><br>
