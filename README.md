@@ -196,3 +196,9 @@ Go to settings ➡️ Devices and services ➡️ add integration and search for
 #### 3. Enter the username and password you have created.
 
 ### ✅ Home Assistant is now connected to your MQTT borker (Mosquitto)
+
+## Setup ESP32 to connect to Home Assistant using MQTT
+
+The functional ESP32 MQTT script that reads and sends temperature, humidity and light data can be found [here](/code/ESP32_MQQTT_temp_hum_light.ino).
+
+
