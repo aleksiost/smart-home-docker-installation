@@ -280,7 +280,7 @@ The data would then look something like this:
       sensor:
         - name: ESP32_Lab_Temperature
           state_topic: "home/esp32/sensors"
-          unit_of_measurement: "C"
+          unit_of_measurement: "°C"
           value_template: "{{ value_json.temperature }}"
           device_class: temperature
           state_class: measurement
